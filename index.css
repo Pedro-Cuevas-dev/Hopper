@@ -1,9 +1,0 @@
-p {
-    color: blue; /* Cambia el color del texto a azul */
-    font-size: 16px; /* Cambia el tamaño de fuente a 16 píxeles */
-    margin-top: 20px; /* Agrega un margen superior de 20 píxeles */
-  }
-  a:hover {
-    color: purple;
-  }
-  
