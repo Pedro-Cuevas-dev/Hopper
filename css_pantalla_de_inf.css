@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #eaeaea;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #1743e3;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.social-media a:hover {
+    border-color: red;
+}
+
+.social-media a i{
+    font-size: 24px;
+    color: red;
+    transform: rotate(-45deg);
+}
+
+/*navbar*/
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4eeee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.letras_verdes{ 
+    color: #3cd443;
+}
+.letras_azules{
+    color: #4259ad;
+}
+h1 {
+    color: #333;
+}
+
+
+.product-info {
+    position: relative;
+    bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    float: right; 
+    height: 800px;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.product-image {
+    padding: 30px;
+    width: 120px;   
+    margin-right: 20px;  
+    float: left;
+}
+
+.product-details {
+    max-width: 45%;
+    margin-top: 100px; 
+    }
+
+
+.product-description {
+    margin-top: 200px;
+    line-height: 1.4;
+}
+
+.miBoton {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilo al pasar el mouse por encima del botón */
+.miBoton {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}
+
