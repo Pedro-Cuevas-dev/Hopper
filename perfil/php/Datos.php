@@ -18,7 +18,7 @@
                 </div>
                 <hr>
                 <br>
-                <ol><a href="index.php">Datos Personales</a></ol>
+                <ol><a href="Datos.php">Datos Personales</a></ol>
                 <br>
                 <ol><a href="Pago.php">Formas De Pago</a></ol>
                 <br>
