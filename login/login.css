@@ -1,1 +1,179 @@
+/* css del navbar */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'MuseoModerno', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --text-color: #000000;
+  --bg-color: #e5e5e5;
+  --main-color: #904242;
+  --second-color: #fff;
+  --other-color: #868686;
+  --big-font: 3rem;
+  --p-font: 1rem;
+}
+body{
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+header{
+  background: var(--bg-color);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 9%;
+  transition: all ease .55s;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: bold;
+}
+.logo i{
+  vertical-align: middle;
+  color: var(--main-color);
+  font-size: 35px;
+  margin-right: 5px;
+}
+.navlist{
+  display: flex;
+}
+.navlist a{
+  font-size: var(--p-font);
+  color: var(--text-color);
+  font-weight: 600;
+  margin: 0 35px;
+  transition: all ease .55s;
+}
+.navlist a:hover{
+  color: var(--main-color);
+}
+.navlist a.active{
+  color: var(--main-color);
+}
+.h-main{
+  display: flex;
+  align-items: center;
+}
+.h-btn, button[type="submit"] {
+  display: inline-block;
+  padding: 10px 25px;
+  color: var(--bg-color);
+  background: var(--main-color);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  margin-right: 20px;
+  transition: all ease .55s;
+}
+
+.h-btn:hover, button[type="submit"]:hover {
+  background: transparent;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/*  */
+
+/* Reset de estilos para evitar inconsistencias entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el contenedor principal del formulario de inicio de sesión */
+.login-container {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado del formulario de inicio de sesión */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para las etiquetas del formulario */
+label {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilos para los campos de entrada */
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Estilos para el botón de inicio de sesión */
+button[type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: #904242;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+/* Estilos para el texto adicional */
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+/* Estilos para el enlace de registro */
+a {
+  color: #904242;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
