@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" type="text/css" href="CSS/navbar.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tu carrito</h1><br>
+
+        <div class="cart" id="cart-container">
+            <!-- Lista de productos en el carrito -->
+            <!-- Los elementos se agregarán dinámicamente aquí -->
+        </div>
+
+        <!-- Resumen del pedido y botón de pago -->
+        <div class="order-summary">
+            <h2>Resumen del Pedido</h2>
+            <ul id="resumen-list"></ul>
+            <p id="subtotal">Subtotal: $0.00</p>
+            <p id="envio">Envío: $5.00</p>
+            <p id="total">Total: $5.00</p>
+            <a href="form_pago.php" class="checkout-button-link">
+                <button class="checkout-button-approved">Realizar Pago</button>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© Hopper. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="JS/carrito.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/modal.js"></script>
+    <script src="js/opcio_pago.js"></script>
+</body>
+</html>
