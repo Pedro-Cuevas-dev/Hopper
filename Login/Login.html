@@ -13,8 +13,9 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form>
+            <form action="./php/login.php" method="post">
                 <h1>Crear una cuenta</h1>
+                <input type="hidden" name="accion" value="registro"> <!-- Campo oculto para indicar que es un registro -->
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
@@ -22,15 +23,16 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>o utiliza tu correo electrónico para registrarte</span>
-                <input type="usuario" placeholder="usuario">
-                <input type="email" placeholder="correo">
-                <input type="password" placeholder="contraseña">
-                <button>INSCRIBIRSE</button>
+                <input type="text" name="usuario" placeholder="Usuario">
+                <input type="email" name="correo" placeholder="Correo">
+                <input type="password" name="contrasena" placeholder="Contraseña">
+                <button type="submit">INSCRIBIRSE</button>
             </form>
         </div>
         <div class="form-container sign-in">
-            <form id= "login-form" action="php/login.php" method="post">
+            <form id="login-form" action="../php/login.php" method="post">
                 <h1>Iniciar sesión</h1>
+                <input type="hidden" name="accion" value="login"> <!-- Campo oculto para indicar que es un inicio de sesión -->
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
@@ -38,7 +40,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>o utiliza tu contraseña de correo electrónico</span>
-                <input type="usuario" name="usuario"placeholder="usuario">
+                <input type="text" name="usuario" placeholder="Usuario">
                 <input type="email" name="correo" placeholder="Correo">
                 <input type="password" name="contrasena" placeholder="Contraseña">
                 <a href="#">¿Olvidaste tu contraseña?</a>
