@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($resultado->num_rows > 0) {
             // Inicio de sesión exitoso
             // Redirigir a la página de producto.php
-            header("Location: ../producto.php");
+            header("Location: ../menu_admin.php");
             exit();
         } else {
             // Credenciales incorrectas
